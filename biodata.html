@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Lengkap</title>
+    <style>
+        body {
+            font-family: 'Quicksand', sans-serif;
+            background: linear-gradient(135deg, #a2d4f4, #4a90e2);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 25px;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+            max-width: 450px;
+            width: 100%;
+            text-align: center;
+            border: 4px solid #ffffff;
+            backdrop-filter: blur(8px);
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from {opacity: 0; transform: translateY(20px);}
+            to {opacity: 1; transform: translateY(0);}
+        }
+        img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 5px solid #4a90e2;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease;
+        }
+        img:hover {
+            transform: scale(1.05);
+        }
+        h1 {
+            color: #004080;
+            margin-bottom: 20px;
+            font-size: 26px;
+        }
+        dl {
+            text-align: left;
+        }
+        dt {
+            font-weight: bold;
+            color: #004080;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        dd {
+            margin: 0 0 10px 0;
+            color: #222;
+            font-family: 'Lato', sans-serif;
+            font-size: 14px;
+            background: linear-gradient(90deg, #e6f3ff, #cfe8ff);
+            padding: 8px;
+            border-radius: 8px;
+            box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <img src="fotokuu.jpg" alt="Foto Profil">
+        <h1>Biodata Lengkap</h1>
+        <dl>
+            <dt>Nama</dt>
+            <dd>Riskiya</dd>
+            <dt>Kelas</dt>
+            <dd>XI RPL 3</dd>
+            <dt>Sekolah</dt>
+            <dd>SMK Negeri 6 Jember</dd>
+            <dt>Alamat</dt>
+            <dd>Pakeman-Batu Urip</dd>
+            <dt>Tanggal Lahir</dt>
+            <dd>06 Maret 2009</dd>
+            <dt>Jenis Kelamin</dt>
+            <dd>Perempuan</dd>
+            <dt>Hobi</dt>
+            <dd>Membaca cerita</dd>
+            <dt>Cita-cita</dt>
+            <dd>Guru</dd>
+            <dt>Instagram</dt>
+            <dd>@devsuite.riskiya</dd>
+            <dt>TikTok</dt>
+            <dd>@only_kiyaaaa</dd>
+        </dl>
+    </div>
+</body>
+</html>
